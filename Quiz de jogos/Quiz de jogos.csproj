@@ -1,0 +1,529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D2BC395-7F67-40D2-B2A4-E06B37265862}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quiz_de_jogos</RootNamespace>
+    <AssemblyName>Quiz de jogos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per1.Designer.cs">
+      <DependentUpon>per1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per10.Designer.cs">
+      <DependentUpon>per10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per11.Designer.cs">
+      <DependentUpon>per11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per12.Designer.cs">
+      <DependentUpon>per12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per13.Designer.cs">
+      <DependentUpon>per13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per14.Designer.cs">
+      <DependentUpon>per14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per15.Designer.cs">
+      <DependentUpon>per15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per16.Designer.cs">
+      <DependentUpon>per16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per17.Designer.cs">
+      <DependentUpon>per17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per18.Designer.cs">
+      <DependentUpon>per18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per19.Designer.cs">
+      <DependentUpon>per19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per2.Designer.cs">
+      <DependentUpon>per2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per20.Designer.cs">
+      <DependentUpon>per20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per21.Designer.cs">
+      <DependentUpon>per21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per22.Designer.cs">
+      <DependentUpon>per22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per23.Designer.cs">
+      <DependentUpon>per23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per24.Designer.cs">
+      <DependentUpon>per24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per25.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per25.Designer.cs">
+      <DependentUpon>per25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per26.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per26.Designer.cs">
+      <DependentUpon>per26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per27.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per27.Designer.cs">
+      <DependentUpon>per27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per28.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per28.Designer.cs">
+      <DependentUpon>per28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per29.Designer.cs">
+      <DependentUpon>per29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per3.Designer.cs">
+      <DependentUpon>per3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per30.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per30.Designer.cs">
+      <DependentUpon>per30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per31.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per31.Designer.cs">
+      <DependentUpon>per31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per32.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per32.Designer.cs">
+      <DependentUpon>per32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per4.Designer.cs">
+      <DependentUpon>per4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per5.Designer.cs">
+      <DependentUpon>per5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per6.Designer.cs">
+      <DependentUpon>per6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per7.Designer.cs">
+      <DependentUpon>per7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per8.Designer.cs">
+      <DependentUpon>per8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per9.Designer.cs">
+      <DependentUpon>per9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="respostas.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per1.resx">
+      <DependentUpon>per1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per10.resx">
+      <DependentUpon>per10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per11.resx">
+      <DependentUpon>per11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per12.resx">
+      <DependentUpon>per12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per13.resx">
+      <DependentUpon>per13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per14.resx">
+      <DependentUpon>per14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per15.resx">
+      <DependentUpon>per15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per16.resx">
+      <DependentUpon>per16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per17.resx">
+      <DependentUpon>per17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per18.resx">
+      <DependentUpon>per18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per19.resx">
+      <DependentUpon>per19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per2.resx">
+      <DependentUpon>per2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per20.resx">
+      <DependentUpon>per20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per21.resx">
+      <DependentUpon>per21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per22.resx">
+      <DependentUpon>per22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per23.resx">
+      <DependentUpon>per23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per24.resx">
+      <DependentUpon>per24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per25.resx">
+      <DependentUpon>per25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per26.resx">
+      <DependentUpon>per26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per27.resx">
+      <DependentUpon>per27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per28.resx">
+      <DependentUpon>per28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per29.resx">
+      <DependentUpon>per29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per3.resx">
+      <DependentUpon>per3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per30.resx">
+      <DependentUpon>per30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per31.resx">
+      <DependentUpon>per31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per32.resx">
+      <DependentUpon>per32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per4.resx">
+      <DependentUpon>per4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per5.resx">
+      <DependentUpon>per5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per6.resx">
+      <DependentUpon>per6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per7.resx">
+      <DependentUpon>per7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per8.resx">
+      <DependentUpon>per8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per9.resx">
+      <DependentUpon>per9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buzzfeed-quiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riven-png-image-with-transparent-background-toppng-riven-png-850_502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haste-riven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c20f1e523629b0dff72fd4cf809ebd4dd1f285a_hq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c20f1e523629b0dff72fd4cf809ebd4dd1f285a_hq1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rkau0MBR_400x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4cfa27c8dcfd8636337d60e6c1f4a7cb693a9bf8r1-380-380v2_00.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\778825be381be66db27d56ba533034ea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c_net_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-javascript-png-free-vector-logo-javascript-300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Riolu-Anime-the-official-riolu-fan-club-39925792-220-228.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Charizard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5550723fe973da99e0e3b6237daf77562144e3bd_hq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20190109_120003.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20190109_120003 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7set2015---o-dublador-fabio-lucindo-vai-deixar-a-serie-pokemon-apos-18-temporadas-como-a-voz-do-protagonista-ash-1441671292696_300x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhaça.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ricardo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Luffy-one-piece-10339026-300-300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8c1545aa37752ad0883ed6cae3586e10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4_uapzfp_400x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\majin boo 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marega-qd-300x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dos+Reis+Carvalho+Eduardo+Genoa+CFC+v+ACF+FaZ8xYSYXMDl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1340566.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aaa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rs_634x1024-190522154219-634-billie-eilish.cm.52219.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tupac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x584.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x5841.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snoop-Dogg-Smoking-Weed-300x201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_DCI_GdMJ6nHXneSsyw3mKQ.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_DCI_GdMJ6nHXneSsyw3mKQ1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1e177bbcd1aad6e21d3c21c81382d35a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golden_State_Warriors.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\durant_serie_espn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2013bf037e28c82554874b16d0248c21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81bO8z8p1eL._SX466_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturar.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transferir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\candice-swanepoel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sem Título.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54-1-e1574015255159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adrianalimadonnakaran-475x3861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\large-1516818701-4ba1eb7d2a35889b0ac64b73d4e71af6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\james-brown-06022019130430288.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51688b0a14f59a34fee35828408b6154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51688b0a14f59a34fee35828408b6154 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gettyimages-131964832-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\00000013583_300x300.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

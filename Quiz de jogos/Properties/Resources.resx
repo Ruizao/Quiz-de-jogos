@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mj.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_634x1024-190522154219-634-billie-eilish.cm.52219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rs_634x1024-190522154219-634-billie-eilish.cm.52219.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8c20f1e523629b0dff72fd4cf809ebd4dd1f285a_hq1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8c20f1e523629b0dff72fd4cf809ebd4dd1f285a_hq1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ricardo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ricardo.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20190109_120003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20190109_120003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="riven-png-image-with-transparent-background-toppng-riven-png-850_502" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\riven-png-image-with-transparent-background-toppng-riven-png-850_502.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nhaça" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nhaça.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1340566" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1340566.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo-javascript-png-free-vector-logo-javascript-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo-javascript-png-free-vector-logo-javascript-300.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x584" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x584.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Capturar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Capturar.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gettyimages-131964832-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gettyimages-131964832-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2013bf037e28c82554874b16d0248c21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2013bf037e28c82554874b16d0248c21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Charizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="majin boo 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\majin boo 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="james-brown-06022019130430288" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\james-brown-06022019130430288.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transferir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transferir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snoop-Dogg-Smoking-Weed-300x201" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snoop-Dogg-Smoking-Weed-300x201.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="durant_serie_espn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\durant_serie_espn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luffy-one-piece-10339026-300-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luffy-one-piece-10339026-300-300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c_net_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c_net_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5550723fe973da99e0e3b6237daf77562144e3bd_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5550723fe973da99e0e3b6237daf77562144e3bd_hq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81bO8z8p1eL._SX466_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81bO8z8p1eL._SX466_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20190109_120003 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20190109_120003 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Riolu-Anime-the-official-riolu-fan-club-39925792-220-228" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Riolu-Anime-the-official-riolu-fan-club-39925792-220-228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8c1545aa37752ad0883ed6cae3586e10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8c1545aa37752ad0883ed6cae3586e10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7set2015---o-dublador-fabio-lucindo-vai-deixar-a-serie-pokemon-apos-18-temporadas-como-a-voz-do-protagonista-ash-1441671292696_300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7set2015---o-dublador-fabio-lucindo-vai-deixar-a-serie-pokemon-apos-18-temporadas-como-a-voz-do-protagonista-ash-1441671292696_300x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="54-1-e1574015255159" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\54-1-e1574015255159.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4cfa27c8dcfd8636337d60e6c1f4a7cb693a9bf8r1-380-380v2_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4cfa27c8dcfd8636337d60e6c1f4a7cb693a9bf8r1-380-380v2_00.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dos+Reis+Carvalho+Eduardo+Genoa+CFC+v+ACF+FaZ8xYSYXMDl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dos+Reis+Carvalho+Eduardo+Genoa+CFC+v+ACF+FaZ8xYSYXMDl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haste-riven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haste-riven.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8c20f1e523629b0dff72fd4cf809ebd4dd1f285a_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8c20f1e523629b0dff72fd4cf809ebd4dd1f285a_hq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sem Título" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sem Título.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Golden_State_Warriors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Golden_State_Warriors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candice-swanepoel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candice-swanepoel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buzzfeed-quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buzzfeed-quiz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x5841" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x5841.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tupac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tupac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51688b0a14f59a34fee35828408b6154 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51688b0a14f59a34fee35828408b6154 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4_uapzfp_400x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4_uapzfp_400x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51688b0a14f59a34fee35828408b6154" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51688b0a14f59a34fee35828408b6154.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_DCI_GdMJ6nHXneSsyw3mKQ1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_DCI_GdMJ6nHXneSsyw3mKQ1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="large-1516818701-4ba1eb7d2a35889b0ac64b73d4e71af6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\large-1516818701-4ba1eb7d2a35889b0ac64b73d4e71af6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rkau0MBR_400x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rkau0MBR_400x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marega-qd-300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marega-qd-300x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adrianalimadonnakaran-475x3861" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adrianalimadonnakaran-475x3861.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1e177bbcd1aad6e21d3c21c81382d35a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1e177bbcd1aad6e21d3c21c81382d35a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1_DCI_GdMJ6nHXneSsyw3mKQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1_DCI_GdMJ6nHXneSsyw3mKQ.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="778825be381be66db27d56ba533034ea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\778825be381be66db27d56ba533034ea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="00000013583_300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000013583_300x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
