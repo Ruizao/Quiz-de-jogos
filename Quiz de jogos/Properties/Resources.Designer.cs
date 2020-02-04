@@ -153,9 +153,29 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _280px_Free_fire_battlegrounds {
+            get {
+                object obj = ResourceManager.GetObject("280px-Free_fire_battlegrounds", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4_uapzfp_400x400 {
             get {
                 object obj = ResourceManager.GetObject("4_uapzfp_400x400", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _406_4067259_thumb_image_crossfire_logo_png_transparent_png__1_ {
+            get {
+                object obj = ResourceManager.GetObject("406-4067259_thumb-image-crossfire-logo-png-transparent-png (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -216,6 +236,17 @@ namespace Quiz_de_jogos.Properties {
         internal static System.Drawing.Bitmap _778825be381be66db27d56ba533034ea {
             get {
                 object obj = ResourceManager.GetObject("778825be381be66db27d56ba533034ea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7b85cf5a_66a7_4d57_bcdf_c3c2d70f0827_8eead9c7_bee1_49f7_8f8e_860947a0d48e_RGB_SD__RI_VgkZuuyalJKPKTDIsT62IXjWhTVP0mtm_TTW_ {
+            get {
+                object obj = ResourceManager.GetObject("7b85cf5a-66a7-4d57-bcdf-c3c2d70f0827-8eead9c7-bee1-49f7-8f8e-860947a0d48e_RGB_SD." +
+                        "_RI_VgkZuuyalJKPKTDIsT62IXjWhTVP0mtm_TTW_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -344,6 +375,36 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cs_1_6 {
+            get {
+                object obj = ResourceManager.GetObject("cs-1.6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cs_source_poster {
+            get {
+                object obj = ResourceManager.GetObject("cs-source-poster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cs_source_poster___Cópia {
+            get {
+                object obj = ResourceManager.GetObject("cs-source-poster - Cópia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dos_Reis_Carvalho_Eduardo_Genoa_CFC_v_ACF_FaZ8xYSYXMDl {
             get {
                 object obj = ResourceManager.GetObject("Dos+Reis+Carvalho+Eduardo+Genoa+CFC+v+ACF+FaZ8xYSYXMDl", resourceCulture);
@@ -357,6 +418,46 @@ namespace Quiz_de_jogos.Properties {
         internal static System.Drawing.Bitmap durant_serie_espn {
             get {
                 object obj = ResourceManager.GetObject("durant_serie_espn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e4dfa24b1b0c57472ffec4a0a99ef59b {
+            get {
+                object obj = ResourceManager.GetObject("e4dfa24b1b0c57472ffec4a0a99ef59b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e4dfa24b1b0c57472ffec4a0a99ef59b__1_ {
+            get {
+                object obj = ResourceManager.GetObject("e4dfa24b1b0c57472ffec4a0a99ef59b (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e699fb7cd6ce72d00445fac66fdfc997 {
+            get {
+                object obj = ResourceManager.GetObject("e699fb7cd6ce72d00445fac66fdfc997", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e699fb7cd6ce72d00445fac66fdfc997___Cópia {
+            get {
+                object obj = ResourceManager.GetObject("e699fb7cd6ce72d00445fac66fdfc997 - Cópia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -387,6 +488,16 @@ namespace Quiz_de_jogos.Properties {
         internal static System.Drawing.Bitmap haste_riven {
             get {
                 object obj = ResourceManager.GetObject("haste-riven", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -574,9 +685,39 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap transferir1 {
+            get {
+                object obj = ResourceManager.GetObject("transferir1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap transferir2 {
+            get {
+                object obj = ResourceManager.GetObject("transferir2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tupac {
             get {
                 object obj = ResourceManager.GetObject("tupac", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

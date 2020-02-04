@@ -50,6 +50,7 @@
             this.label1.Size = new System.Drawing.Size(471, 33);
             this.label1.TabIndex = 1;
             this.label1.Text = "Qual é o nome deste Champion?";
+            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // radioButton1
             // 
@@ -120,6 +121,7 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Questão 1";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // pictureBox1
             // 
@@ -129,6 +131,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(289, 298);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // resposta
             // 

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Finish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finish.Designer.cs">
+      <DependentUpon>Finish.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,17 +214,125 @@
     <Compile Include="per32.Designer.cs">
       <DependentUpon>per32.cs</DependentUpon>
     </Compile>
+    <Compile Include="per33.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per33.Designer.cs">
+      <DependentUpon>per33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per34.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per34.Designer.cs">
+      <DependentUpon>per34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per35.Designer.cs">
+      <DependentUpon>per35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per36.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per36.Designer.cs">
+      <DependentUpon>per36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per37.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per37.Designer.cs">
+      <DependentUpon>per37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per38.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per38.Designer.cs">
+      <DependentUpon>per38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per39.Designer.cs">
+      <DependentUpon>per39.cs</DependentUpon>
+    </Compile>
     <Compile Include="per4.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="per4.Designer.cs">
       <DependentUpon>per4.cs</DependentUpon>
     </Compile>
+    <Compile Include="per40.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per40.Designer.cs">
+      <DependentUpon>per40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per41.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per41.Designer.cs">
+      <DependentUpon>per41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per42.Designer.cs">
+      <DependentUpon>per42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per43.Designer.cs">
+      <DependentUpon>per43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per44.Designer.cs">
+      <DependentUpon>per44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per45.Designer.cs">
+      <DependentUpon>per45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per46.Designer.cs">
+      <DependentUpon>per46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per47.Designer.cs">
+      <DependentUpon>per47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per48.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per48.Designer.cs">
+      <DependentUpon>per48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per49.Designer.cs">
+      <DependentUpon>per49.cs</DependentUpon>
+    </Compile>
     <Compile Include="per5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="per5.Designer.cs">
       <DependentUpon>per5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="per50.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="per50.Designer.cs">
+      <DependentUpon>per50.cs</DependentUpon>
     </Compile>
     <Compile Include="per6.cs">
       <SubType>Form</SubType>
@@ -328,11 +442,65 @@
     <EmbeddedResource Include="per32.resx">
       <DependentUpon>per32.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="per33.resx">
+      <DependentUpon>per33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per34.resx">
+      <DependentUpon>per34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per35.resx">
+      <DependentUpon>per35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per36.resx">
+      <DependentUpon>per36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per37.resx">
+      <DependentUpon>per37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per38.resx">
+      <DependentUpon>per38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per39.resx">
+      <DependentUpon>per39.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="per4.resx">
       <DependentUpon>per4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="per40.resx">
+      <DependentUpon>per40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per41.resx">
+      <DependentUpon>per41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per42.resx">
+      <DependentUpon>per42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per43.resx">
+      <DependentUpon>per43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per44.resx">
+      <DependentUpon>per44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per45.resx">
+      <DependentUpon>per45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per46.resx">
+      <DependentUpon>per46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per47.resx">
+      <DependentUpon>per47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per48.resx">
+      <DependentUpon>per48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per49.resx">
+      <DependentUpon>per49.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="per5.resx">
       <DependentUpon>per5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="per50.resx">
+      <DependentUpon>per50.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="per6.resx">
       <DependentUpon>per6.cs</DependentUpon>
@@ -524,6 +692,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\00000013583_300x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\280px-Free_fire_battlegrounds.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs-source-poster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs-source-poster - Cópia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e4dfa24b1b0c57472ffec4a0a99ef59b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e699fb7cd6ce72d00445fac66fdfc997.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e699fb7cd6ce72d00445fac66fdfc997 - Cópia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transferir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transferir1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e4dfa24b1b0c57472ffec4a0a99ef59b %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\406-4067259_thumb-image-crossfire-logo-png-transparent-png %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cs-1.6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7b85cf5a-66a7-4d57-bcdf-c3c2d70f0827-8eead9c7-bee1-49f7-8f8e-860947a0d48e_RGB_SD._RI_VgkZuuyalJKPKTDIsT62IXjWhTVP0mtm_TTW_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
