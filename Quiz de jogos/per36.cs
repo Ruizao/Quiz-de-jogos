@@ -48,7 +48,7 @@ namespace Quiz_de_jogos
                 resposta.Text = "Resposta Incorreta";
 
             }
-            else if (radioButton2.Checked)
+            else if (radioButton2.Checked)a
             {
                 resposta.Text = "Resposta Incorreta";
             }
