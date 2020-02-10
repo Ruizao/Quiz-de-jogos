@@ -238,101 +238,11 @@
     <Compile Include="per36.Designer.cs">
       <DependentUpon>per36.cs</DependentUpon>
     </Compile>
-    <Compile Include="per37.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per37.Designer.cs">
-      <DependentUpon>per37.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per38.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per38.Designer.cs">
-      <DependentUpon>per38.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per39.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per39.Designer.cs">
-      <DependentUpon>per39.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per4.Designer.cs">
-      <DependentUpon>per4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per40.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per40.Designer.cs">
-      <DependentUpon>per40.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per41.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per41.Designer.cs">
-      <DependentUpon>per41.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per42.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per42.Designer.cs">
-      <DependentUpon>per42.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per43.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per43.Designer.cs">
-      <DependentUpon>per43.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per44.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per44.Designer.cs">
-      <DependentUpon>per44.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per45.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per45.Designer.cs">
-      <DependentUpon>per45.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per46.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per46.Designer.cs">
-      <DependentUpon>per46.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per47.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per47.Designer.cs">
-      <DependentUpon>per47.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per48.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per48.Designer.cs">
-      <DependentUpon>per48.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per49.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per49.Designer.cs">
-      <DependentUpon>per49.cs</DependentUpon>
-    </Compile>
     <Compile Include="per5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="per5.Designer.cs">
       <DependentUpon>per5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="per50.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="per50.Designer.cs">
-      <DependentUpon>per50.cs</DependentUpon>
     </Compile>
     <Compile Include="per6.cs">
       <SubType>Form</SubType>
@@ -454,53 +364,8 @@
     <EmbeddedResource Include="per36.resx">
       <DependentUpon>per36.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="per37.resx">
-      <DependentUpon>per37.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per38.resx">
-      <DependentUpon>per38.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per39.resx">
-      <DependentUpon>per39.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per4.resx">
-      <DependentUpon>per4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per40.resx">
-      <DependentUpon>per40.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per41.resx">
-      <DependentUpon>per41.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per42.resx">
-      <DependentUpon>per42.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per43.resx">
-      <DependentUpon>per43.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per44.resx">
-      <DependentUpon>per44.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per45.resx">
-      <DependentUpon>per45.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per46.resx">
-      <DependentUpon>per46.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per47.resx">
-      <DependentUpon>per47.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per48.resx">
-      <DependentUpon>per48.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per49.resx">
-      <DependentUpon>per49.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="per5.resx">
       <DependentUpon>per5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="per50.resx">
-      <DependentUpon>per50.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="per6.resx">
       <DependentUpon>per6.cs</DependentUpon>
@@ -734,6 +599,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitch-logo-png-clip-art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\twitch-logo-png-clip-art - Cópia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27337085_1486007501525448_472486965348063791_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reddit-featured.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steamlogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xiaomi-logo-og.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xiaomi-logo-840x500-696x414.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

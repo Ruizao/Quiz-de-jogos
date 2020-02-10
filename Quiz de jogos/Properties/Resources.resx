@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="steamlogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steamlogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Golden_State_Warriors" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Golden_State_Warriors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="00000013583_300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\00000013583_300x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="riven-png-image-with-transparent-background-toppng-riven-png-850_502" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\riven-png-image-with-transparent-background-toppng-riven-png-850_502.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -132,9 +132,6 @@
   </data>
   <data name="buzzfeed-quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\buzzfeed-quiz.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1340566" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1340566.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="c_net_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c_net_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +172,9 @@
   <data name="8c1545aa37752ad0883ed6cae3586e10" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8c1545aa37752ad0883ed6cae3586e10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Dos+Reis+Carvalho+Eduardo+Genoa+CFC+v+ACF+FaZ8xYSYXMDl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dos+Reis+Carvalho+Eduardo+Genoa+CFC+v+ACF+FaZ8xYSYXMDl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,11 +193,11 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="twitch-logo-png-clip-art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twitch-logo-png-clip-art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="e4dfa24b1b0c57472ffec4a0a99ef59b (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\e4dfa24b1b0c57472ffec4a0a99ef59b (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mj" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mj.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="e699fb7cd6ce72d00445fac66fdfc997 - Cópia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\e699fb7cd6ce72d00445fac66fdfc997 - Cópia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +208,14 @@
   <data name="4cfa27c8dcfd8636337d60e6c1f4a7cb693a9bf8r1-380-380v2_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4cfa27c8dcfd8636337d60e6c1f4a7cb693a9bf8r1-380-380v2_00.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="00000013583_300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\00000013583_300x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="406-4067259_thumb-image-crossfire-logo-png-transparent-png (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\406-4067259_thumb-image-crossfire-logo-png-transparent-png (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_20190109_120003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_20190109_120003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="large-1516818701-4ba1eb7d2a35889b0ac64b73d4e71af6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\large-1516818701-4ba1eb7d2a35889b0ac64b73d4e71af6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -226,11 +232,17 @@
   <data name="transferir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\transferir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="xiaomi-logo-og" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xiaomi-logo-og.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="gettyimages-131964832-612x612" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gettyimages-131964832-612x612.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cs-source-poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cs-source-poster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luffy-one-piece-10339026-300-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luffy-one-piece-10339026-300-300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ricardo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ricardo.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,6 +259,9 @@
   <data name="54-1-e1574015255159" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\54-1-e1574015255159.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="27337085_1486007501525448_472486965348063791_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27337085_1486007501525448_472486965348063791_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="81bO8z8p1eL._SX466_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\81bO8z8p1eL._SX466_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -259,8 +274,8 @@
   <data name="Riolu-Anime-the-official-riolu-fan-club-39925792-220-228" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Riolu-Anime-the-official-riolu-fan-club-39925792-220-228.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="e699fb7cd6ce72d00445fac66fdfc997" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\e699fb7cd6ce72d00445fac66fdfc997.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="reddit-featured" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reddit-featured.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="51688b0a14f59a34fee35828408b6154 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\51688b0a14f59a34fee35828408b6154 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,8 +286,8 @@
   <data name="transferir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\transferir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Luffy-one-piece-10339026-300-300" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Luffy-one-piece-10339026-300-300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1340566" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1340566.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nhaça" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nhaça.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -283,8 +298,11 @@
   <data name="Capturar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Capturar.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rs_634x1024-190522154219-634-billie-eilish.cm.52219" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rs_634x1024-190522154219-634-billie-eilish.cm.52219.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cs-source-poster - Cópia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cs-source-poster - Cópia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twitch-logo-png-clip-art - Cópia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twitch-logo-png-clip-art - Cópia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="7b85cf5a-66a7-4d57-bcdf-c3c2d70f0827-8eead9c7-bee1-49f7-8f8e-860947a0d48e_RGB_SD._RI_VgkZuuyalJKPKTDIsT62IXjWhTVP0mtm_TTW_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7b85cf5a-66a7-4d57-bcdf-c3c2d70f0827-8eead9c7-bee1-49f7-8f8e-860947a0d48e_RGB_SD._RI_VgkZuuyalJKPKTDIsT62IXjWhTVP0mtm_TTW_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -295,25 +313,28 @@
   <data name="4_uapzfp_400x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4_uapzfp_400x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="transferir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transferir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_634x1024-190522154219-634-billie-eilish.cm.52219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rs_634x1024-190522154219-634-billie-eilish.cm.52219.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e699fb7cd6ce72d00445fac66fdfc997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e699fb7cd6ce72d00445fac66fdfc997.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x584" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2017GettyImages-snoop-dogg-tupac-hall-of-fame-920x584.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="transferir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\transferir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mj" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mj.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="7set2015---o-dublador-fabio-lucindo-vai-deixar-a-serie-pokemon-apos-18-temporadas-como-a-voz-do-protagonista-ash-1441671292696_300x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7set2015---o-dublador-fabio-lucindo-vai-deixar-a-serie-pokemon-apos-18-temporadas-como-a-voz-do-protagonista-ash-1441671292696_300x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cs-source-poster - Cópia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cs-source-poster - Cópia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_20190109_120003" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_20190109_120003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="cs-1.6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cs-1.6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="xiaomi-logo-840x500-696x414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xiaomi-logo-840x500-696x414.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

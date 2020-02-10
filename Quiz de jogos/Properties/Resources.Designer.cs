@@ -153,6 +153,16 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _27337085_1486007501525448_472486965348063791_n {
+            get {
+                object obj = ResourceManager.GetObject("27337085_1486007501525448_472486965348063791_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _280px_Free_fire_battlegrounds {
             get {
                 object obj = ResourceManager.GetObject("280px-Free_fire_battlegrounds", resourceCulture);
@@ -605,6 +615,16 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap reddit_featured {
+            get {
+                object obj = ResourceManager.GetObject("reddit-featured", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ricardo {
             get {
                 object obj = ResourceManager.GetObject("ricardo", resourceCulture);
@@ -675,6 +695,16 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap steamlogo {
+            get {
+                object obj = ResourceManager.GetObject("steamlogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap transferir {
             get {
                 object obj = ResourceManager.GetObject("transferir", resourceCulture);
@@ -715,9 +745,49 @@ namespace Quiz_de_jogos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap twitch_logo_png_clip_art {
+            get {
+                object obj = ResourceManager.GetObject("twitch-logo-png-clip-art", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap twitch_logo_png_clip_art___Cópia {
+            get {
+                object obj = ResourceManager.GetObject("twitch-logo-png-clip-art - Cópia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap unnamed {
             get {
                 object obj = ResourceManager.GetObject("unnamed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xiaomi_logo_840x500_696x414 {
+            get {
+                object obj = ResourceManager.GetObject("xiaomi-logo-840x500-696x414", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xiaomi_logo_og {
+            get {
+                object obj = ResourceManager.GetObject("xiaomi-logo-og", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
