@@ -10,25 +10,18 @@ using System.Windows.Forms;
 
 namespace Quiz_de_jogos
 {
-    public partial class per36 : Form
+    public partial class per4 : Form
     {
-        public per36()
+        public per4()
         {
             InitializeComponent();
-        }
-
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            per37 p37 = new per37();
-            p37.ShowDialog();
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            per37 p37 = new per37();
-            p37.ShowDialog();
+            per5 p5 = new per5();
+            p5.ShowDialog();
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -40,7 +33,6 @@ namespace Quiz_de_jogos
             button1.Enabled = false;
             button2.Enabled = false;
         }
-
         private Boolean Verifica1(bool valor)
         {
             if (radioButton1.Checked)
@@ -50,16 +42,25 @@ namespace Quiz_de_jogos
             }
             else if (radioButton2.Checked)
             {
-                resposta.Text = "Resposta Incorreta";
+                resposta.Text = "Resposta Correta";
             }
 
             else if (radioButton3.Checked)
             {
-                resposta.Text = "Resposta Correta";
+                resposta.Text = "Resposta Incorreta";
             }
             return true;
         }
-        private void Per36_Load(object sender, EventArgs e)
+
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            per5 p5 = new per5();
+            p5.ShowDialog();
+        }
+
+        private void Per4_Load(object sender, EventArgs e)
         {
             button1.Enabled = true;
             button3.Enabled = false;

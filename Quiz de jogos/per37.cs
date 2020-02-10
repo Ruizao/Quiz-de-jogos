@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Quiz_de_jogos
 {
-    public partial class Finish : Form
+    public partial class per37 : Form
     {
-        public Finish()
+        public per37()
         {
             InitializeComponent();
+        }
+
+        private void Per37_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
