@@ -47,16 +47,22 @@ namespace Quiz_de_jogos
             if (radioButton1.Checked)
             {
                 resposta.Text = "Resposta Incorreta";
+                label4.Visible = true;
+
 
             }
             else if (radioButton2.Checked)
             {
                 resposta.Text = "Resposta Incorreta";
+                label4.Visible = true;
+
             }
 
             else if (radioButton3.Checked)
             {
                 resposta.Text = "Resposta Correta";
+                label3.Visible = true;
+
             }
             return true;
         }
