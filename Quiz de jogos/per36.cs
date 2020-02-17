@@ -20,15 +20,15 @@ namespace Quiz_de_jogos
         private void Button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            per37 p37 = new per37();
-            p37.ShowDialog();
+            Finish finish = new Finish();
+            finish.ShowDialog(); 
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            per37 p37 = new per37();
-            p37.ShowDialog();
+            Finish finish = new Finish();
+            finish.ShowDialog();
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -63,6 +63,11 @@ namespace Quiz_de_jogos
         {
             button1.Enabled = true;
             button3.Enabled = false;
+        }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

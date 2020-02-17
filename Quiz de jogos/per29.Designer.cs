@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(per29));
             this.label1 = new System.Windows.Forms.Label();
             this.resposta = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
@@ -163,6 +164,7 @@
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "per29";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "per29";

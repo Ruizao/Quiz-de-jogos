@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(per26));
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -78,10 +79,10 @@
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
             this.radioButton3.Location = new System.Drawing.Point(622, 485);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(217, 22);
+            this.radioButton3.Size = new System.Drawing.Size(202, 22);
             this.radioButton3.TabIndex = 125;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "James Harden e Rockets";
+            this.radioButton3.Text = "Michael Jorda e Lakers";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -90,10 +91,10 @@
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(323, 485);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(256, 22);
+            this.radioButton2.Size = new System.Drawing.Size(222, 22);
             this.radioButton2.TabIndex = 124;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Lebron James e Chicago Bulls";
+            this.radioButton2.Text = "Michael Jordan e Chicago";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
@@ -175,6 +176,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "per26";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "per26";

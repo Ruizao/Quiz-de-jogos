@@ -29,6 +29,7 @@ namespace Quiz_de_jogos
             }
             button1.Enabled = false;
             button2.Enabled = false;
+            _soundPlayer.Stop();
         }
         private Boolean Verifica1(bool valor)
         {

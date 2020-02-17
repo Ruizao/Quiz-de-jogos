@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(per24));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -60,9 +61,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(238, 416);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(578, 58);
+            this.label1.Size = new System.Drawing.Size(671, 58);
             this.label1.TabIndex = 103;
-            this.label1.Text = "Qual é o nome deste jogador e o nome do logo?\r\n\r\n";
+            this.label1.Text = "Qual é o 1 e o 3  nome deste jogador e o nome do logo?\r\n\r\n";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // radioButton3
@@ -178,6 +179,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "per24";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "per24";

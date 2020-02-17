@@ -27,6 +27,10 @@ namespace Quiz_de_jogos
             this.Hide();
             per2 p2 = new per2();
             p2.ShowDialog();
+            HighScore();
+        }
+        public void HighScore()
+        {
         }
 
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
@@ -52,6 +56,7 @@ namespace Quiz_de_jogos
             }
             button1.Enabled = false;
             button2.Enabled = false;
+            HighScore();
 
         }
 

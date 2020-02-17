@@ -323,12 +323,32 @@ namespace Quiz_de_jogos.Properties {
         }
         
         /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] aaa1 {
+            get {
+                object obj = ResourceManager.GetObject("aaa1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap adrianalimadonnakaran_475x3861 {
             get {
                 object obj = ResourceManager.GetObject("adrianalimadonnakaran-475x3861", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Byte[].
+        /// </summary>
+        internal static byte[] ajuda {
+            get {
+                object obj = ResourceManager.GetObject("ajuda", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
