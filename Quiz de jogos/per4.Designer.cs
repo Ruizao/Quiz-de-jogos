@@ -99,7 +99,7 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.radioButton2.Location = new System.Drawing.Point(332, 464);
+            this.radioButton2.Location = new System.Drawing.Point(296, 464);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(117, 35);
             this.radioButton2.TabIndex = 27;
