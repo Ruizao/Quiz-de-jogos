@@ -20,5 +20,10 @@ namespace Quiz_de_jogos
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
         }
+
+        private void Finish_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

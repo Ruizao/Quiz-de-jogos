@@ -146,7 +146,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Quiz_de_jogos.Properties.Resources.e4dfa24b1b0c57472ffec4a0a99ef59b__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(482, 81);
+            this.pictureBox2.Location = new System.Drawing.Point(33, 92);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(360, 359);
             this.pictureBox2.TabIndex = 78;
@@ -155,7 +155,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Quiz_de_jogos.Properties.Resources.e699fb7cd6ce72d00445fac66fdfc997___Cópia;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 81);
+            this.pictureBox1.Location = new System.Drawing.Point(470, 92);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(362, 359);
             this.pictureBox1.TabIndex = 69;

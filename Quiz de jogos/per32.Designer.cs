@@ -166,6 +166,7 @@
             this.Controls.Add(this.label2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "per32";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "per32";
             this.Load += new System.EventHandler(this.Per32_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
