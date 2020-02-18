@@ -35,7 +35,7 @@ namespace Quiz_de_jogos
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            Help.ShowHelp(this, Application.StartupPath + "\\Resources\\ajuda.chm");
+            Help.ShowHelp(this, Application.StartupPath + "\\Resources\\help.chm");
         }
     }
 }

@@ -430,12 +430,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ajuda.chm">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Resources\buzzfeed-quiz.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\help.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\riven-png-image-with-transparent-background-toppng-riven-png-850_502.png" />
   </ItemGroup>
   <ItemGroup>
